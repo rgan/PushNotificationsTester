@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CEPubnub.h"
 
-@interface NotificationsViewController : UIViewController
+@interface NotificationsViewController : UIViewController<CEPubnubDelegate>
+
+@property (retain, nonatomic) IBOutlet UITextView *display;
 
 @end

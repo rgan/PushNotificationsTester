@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FFF54CD315BC27CA00D1B6FC /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CC715BC27CA00D1B6FC /* Base64.m */; };
+		FFF54CD415BC27CA00D1B6FC /* CEPubnub.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CC915BC27CA00D1B6FC /* CEPubnub.m */; };
+		FFF54CD515BC27CA00D1B6FC /* Cipher.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CCB15BC27CA00D1B6FC /* Cipher.m */; };
+		FFF54CD615BC27CA00D1B6FC /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CCD15BC27CA00D1B6FC /* Common.m */; };
+		FFF54CD715BC27CA00D1B6FC /* JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CCF15BC27CA00D1B6FC /* JSON.m */; };
+		FFF54CD815BC27CA00D1B6FC /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF54CD115BC27CA00D1B6FC /* JSONKit.m */; };
 		FFFEE8BA15BC1C3400AEE123 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFEE8B915BC1C3400AEE123 /* UIKit.framework */; };
 		FFFEE8BC15BC1C3400AEE123 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFEE8BB15BC1C3400AEE123 /* Foundation.framework */; };
 		FFFEE8BE15BC1C3400AEE123 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFEE8BD15BC1C3400AEE123 /* CoreGraphics.framework */; };
@@ -19,17 +25,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FFF54CC615BC27CA00D1B6FC /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		FFF54CC715BC27CA00D1B6FC /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		FFF54CC815BC27CA00D1B6FC /* CEPubnub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEPubnub.h; sourceTree = "<group>"; };
+		FFF54CC915BC27CA00D1B6FC /* CEPubnub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEPubnub.m; sourceTree = "<group>"; };
+		FFF54CCA15BC27CA00D1B6FC /* Cipher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cipher.h; sourceTree = "<group>"; };
+		FFF54CCB15BC27CA00D1B6FC /* Cipher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cipher.m; sourceTree = "<group>"; };
+		FFF54CCC15BC27CA00D1B6FC /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		FFF54CCD15BC27CA00D1B6FC /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		FFF54CCE15BC27CA00D1B6FC /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		FFF54CCF15BC27CA00D1B6FC /* JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSON.m; sourceTree = "<group>"; };
+		FFF54CD015BC27CA00D1B6FC /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		FFF54CD115BC27CA00D1B6FC /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		FFFEE8B515BC1C3400AEE123 /* PushNotificationsTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushNotificationsTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFFEE8B915BC1C3400AEE123 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FFFEE8BB15BC1C3400AEE123 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FFFEE8BD15BC1C3400AEE123 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FFFEE8C115BC1C3400AEE123 /* PushNotificationsTester-Info.plist */ = {isa = PBXFileReference; path = "PushNotificationsTester-Info.plist"; sourceTree = "<group>"; };
+		FFFEE8C115BC1C3400AEE123 /* PushNotificationsTester-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PushNotificationsTester-Info.plist"; sourceTree = "<group>"; };
 		FFFEE8C315BC1C3400AEE123 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FFFEE8C515BC1C3400AEE123 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FFFEE8C715BC1C3400AEE123 /* PushNotificationsTester-Prefix.pch */ = {isa = PBXFileReference; path = "PushNotificationsTester-Prefix.pch"; sourceTree = "<group>"; };
-		FFFEE8C815BC1C3400AEE123 /* NotificationsAppDelegate.h */ = {isa = PBXFileReference; path = NotificationsAppDelegate.h; sourceTree = "<group>"; };
+		FFFEE8C715BC1C3400AEE123 /* PushNotificationsTester-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PushNotificationsTester-Prefix.pch"; sourceTree = "<group>"; };
+		FFFEE8C815BC1C3400AEE123 /* NotificationsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationsAppDelegate.h; sourceTree = "<group>"; };
 		FFFEE8C915BC1C3400AEE123 /* NotificationsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsAppDelegate.m; sourceTree = "<group>"; };
-		FFFEE8CB15BC1C3400AEE123 /* NotificationsViewController.h */ = {isa = PBXFileReference; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		FFFEE8CB15BC1C3400AEE123 /* NotificationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
 		FFFEE8CC15BC1C3400AEE123 /* NotificationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
 		FFFEE8CF15BC1C3400AEE123 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NotificationsViewController_iPhone.xib; sourceTree = "<group>"; };
 		FFFEE8D215BC1C3400AEE123 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NotificationsViewController_iPad.xib; sourceTree = "<group>"; };
@@ -49,6 +67,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FFF54CC515BC27CA00D1B6FC /* Pubnub */ = {
+			isa = PBXGroup;
+			children = (
+				FFF54CC615BC27CA00D1B6FC /* Base64.h */,
+				FFF54CC715BC27CA00D1B6FC /* Base64.m */,
+				FFF54CC815BC27CA00D1B6FC /* CEPubnub.h */,
+				FFF54CC915BC27CA00D1B6FC /* CEPubnub.m */,
+				FFF54CCA15BC27CA00D1B6FC /* Cipher.h */,
+				FFF54CCB15BC27CA00D1B6FC /* Cipher.m */,
+				FFF54CCC15BC27CA00D1B6FC /* Common.h */,
+				FFF54CCD15BC27CA00D1B6FC /* Common.m */,
+				FFF54CCE15BC27CA00D1B6FC /* JSON.h */,
+				FFF54CCF15BC27CA00D1B6FC /* JSON.m */,
+				FFF54CD015BC27CA00D1B6FC /* JSONKit.h */,
+				FFF54CD115BC27CA00D1B6FC /* JSONKit.m */,
+			);
+			path = Pubnub;
+			sourceTree = SOURCE_ROOT;
+		};
 		FFFEE8AA15BC1C3400AEE123 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +116,7 @@
 		FFFEE8BF15BC1C3400AEE123 /* PushNotificationsTester */ = {
 			isa = PBXGroup;
 			children = (
+				FFF54CC515BC27CA00D1B6FC /* Pubnub */,
 				FFFEE8C815BC1C3400AEE123 /* NotificationsAppDelegate.h */,
 				FFFEE8C915BC1C3400AEE123 /* NotificationsAppDelegate.m */,
 				FFFEE8CB15BC1C3400AEE123 /* NotificationsViewController.h */,
@@ -168,6 +206,12 @@
 				FFFEE8C615BC1C3400AEE123 /* main.m in Sources */,
 				FFFEE8CA15BC1C3400AEE123 /* NotificationsAppDelegate.m in Sources */,
 				FFFEE8CD15BC1C3400AEE123 /* NotificationsViewController.m in Sources */,
+				FFF54CD315BC27CA00D1B6FC /* Base64.m in Sources */,
+				FFF54CD415BC27CA00D1B6FC /* CEPubnub.m in Sources */,
+				FFF54CD515BC27CA00D1B6FC /* Cipher.m in Sources */,
+				FFF54CD615BC27CA00D1B6FC /* Common.m in Sources */,
+				FFF54CD715BC27CA00D1B6FC /* JSON.m in Sources */,
+				FFF54CD815BC27CA00D1B6FC /* JSONKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +331,7 @@
 				FFFEE8D815BC1C3400AEE123 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
